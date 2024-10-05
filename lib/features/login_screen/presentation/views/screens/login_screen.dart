@@ -1,3 +1,4 @@
+import 'package:chat_train_app/core/consts/images.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -13,7 +14,7 @@ class LoginScreen extends StatelessWidget {
         height: double.infinity,
         child:
           Image.asset(
-            "assets/images/test.png",
+            Images.loginImage,
             fit: BoxFit.cover,
           ),
       ),

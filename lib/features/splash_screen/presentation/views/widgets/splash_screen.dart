@@ -1,6 +1,7 @@
-import 'package:chat_train_app/core/consts/consts.dart';
-import 'package:chat_train_app/core/themes/styles.dart';
-import 'package:chat_train_app/features/presentation/views/screens/login_screen.dart';
+import 'package:chat_train_app/core/consts/images.dart';
+import 'package:chat_train_app/core/themes/my_color.dart';
+import 'package:chat_train_app/core/themes/my_styles.dart';
+import 'package:chat_train_app/features/login_screen/presentation/views/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -18,7 +19,7 @@ class _MyAppState extends State<SplashScreen>
   void initState() {
     super.initState();
     Future.delayed(
-      Duration(seconds: 3),
+      Duration(seconds: 10),
       () {
         Navigator.pushReplacementNamed(context, LoginScreen.routeName);
       },
@@ -32,13 +33,13 @@ class _MyAppState extends State<SplashScreen>
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('assets/images/logo 1.png'),
+            Image.asset(Images.splashLogo),
             Text(
               "WhatsUp",
               style: MyStyles.splashText
-                  .copyWith(fontSize: 32, color: MyConsts.mediamGreenColor),
+                  .copyWith(fontSize: 32, color: MyColor.mediamGreenColor),
             ),
-            SizedBox(height: MediaQuery.of(context).size.height/3),
+            SizedBox(height: MediaQuery.of(context).size.height/10),
             Text(
               "Welcome to the best chat app!",
               style: MyStyles.splashText,
