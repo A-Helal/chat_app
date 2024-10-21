@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "861245025345",
+    "project_id": "chat-train-app",
+    "storage_bucket": "chat-train-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861245025345:android:687381f29c9f95c15e6ac0",
+        "android_client_info": {
+          "package_name": "com.helal.chat_train_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAllm91I2V3UoGlR-KTdXVVqIFVIDhwX_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
